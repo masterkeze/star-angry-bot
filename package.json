@@ -1,0 +1,17 @@
+{
+  "name": "star-angry-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "master": "node index.js --host master",
+    "test": "node index.js --host test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^23.8.0",
+    "yargs": "^17.7.2"
+  }
+}

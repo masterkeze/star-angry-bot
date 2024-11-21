@@ -1,0 +1,36 @@
+# 忽略 node_modules 目录
+node_modules/
+
+# 其他常见忽略规则
+# 忽略操作系统生成的临时文件
+.DS_Store
+Thumbs.db
+
+# 忽略编辑器生成的临时文件
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+
+# 忽略编译生成的文件
+*.log
+*.lock
+*.pid
+*.sock
+*.class
+*.o
+*.obj
+*.so
+*.a
+*.lib
+*.dll
+*.dylib
+
+# 忽略打包生成的文件
+dist/
+build/
+out/
+
+# 忽略测试结果文件
+coverage/
